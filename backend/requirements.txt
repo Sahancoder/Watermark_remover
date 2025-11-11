@@ -1,0 +1,31 @@
+# FastAPI Backend Dependencies
+# v1: Manual redaction with pikepdf
+
+# Core framework
+fastapi==0.104.1
+uvicorn[standard]==0.24.0
+python-multipart==0.0.6
+
+# PDF manipulation
+pikepdf==8.10.1
+
+# Image processing (for future v3 inpainting)
+Pillow==10.1.0
+numpy==1.26.2
+opencv-python==4.8.1.78  # Enabled for image watermark removal
+
+# Optional: PyMuPDF for v2 advanced features (AGPL license)
+# pymupdf==1.23.8
+
+# Optional: OpenCV for v3 inpainting
+# opencv-python-headless==4.8.1.78
+
+# Optional: Tesseract for v3 re-OCR
+# pytesseract==0.3.10
+
+# Logging and monitoring
+python-json-logger==2.0.7
+
+# Development
+pytest==7.4.3
+httpx==0.25.2  # For testing FastAPI

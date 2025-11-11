@@ -1,0 +1,14 @@
+services:
+  - type: web
+    name: watermark-remover-api
+    env: docker
+    dockerfilePath: ./backend/Dockerfile
+    dockerContext: ./backend
+    region: oregon
+    plan: starter
+    envVars:
+      - key: ALLOWED_ORIGINS
+        value: https://your-app.netlify.app
+      - key: PORT
+        value: 8000
+    healthCheckPath: /health
