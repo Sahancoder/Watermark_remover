@@ -1,4 +1,13 @@
 # PDF Watermark Remover
+### 📸 Preview
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Sahancoder/Watermark_remover/main/Screenshot%202025-11-11%20235808.png" alt="PDF Watermark Remover UI Screenshot 1" width="85%">
+  <br><br>
+  <img src="https://raw.githubusercontent.com/Sahancoder/Watermark_remover/main/Screenshot%202025-11-11%20235817.png" alt="PDF Watermark Remover UI Screenshot 2" width="85%">
+</p>
+
+---
 
 A privacy-first, open-source web application for removing watermarks from PDFs. Supports native text/vector watermarks, logos, and scanned documents with intelligent detection and content-aware cleanup.
 
